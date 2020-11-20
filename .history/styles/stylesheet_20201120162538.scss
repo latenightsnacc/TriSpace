@@ -25,8 +25,8 @@
 html, body {
     background: white;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     height: 100%;
-    margin: 0 auto !important;
 }
 //  WRAPPER CLASS
 .wrapper {
@@ -39,7 +39,6 @@ html, body {
     color: $blue !important;
     font-weight: 400;
     font-size: 17px;
-    
 }
 .nav-menu {
     display: flex;
@@ -127,7 +126,7 @@ a.btn {
 
 .clear-box {
    width: 300px;
-   
+   border: 1px solid $blue;
     // box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
    
 }

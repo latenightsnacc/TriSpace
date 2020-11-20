@@ -25,12 +25,13 @@
 html, body {
     background: white;
     overflow-x: hidden;
-    height: 100%;
-    margin: 0 auto !important;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 //  WRAPPER CLASS
 .wrapper {
     width: 100%;
+    min-height: 100vh;
     margin: 0 auto;
 }
 
@@ -39,7 +40,6 @@ html, body {
     color: $blue !important;
     font-weight: 400;
     font-size: 17px;
-    
 }
 .nav-menu {
     display: flex;
@@ -95,7 +95,7 @@ a.btn {
 .span-title {
     font-family: $font2;
     text-transform: lowercase;
-    font-size: 22px;
+    font-size: 25px;
 }
 .section-title {
     font-family: $font2;
@@ -124,10 +124,52 @@ a.btn {
     border: 1px solid $red;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
+.abs {
+    position: relative;
+    width: 100%;
+    height: 100%;
 
+    .clear-box {
+        width: 300px;
+        height: 250px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        position: absolute;
+    }
+    .box-1 {
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        width: 200px;
+        height: 150px;
+    }
+    .box-2 {
+        position: absolute;
+        top: 0px;
+        left: 30px;
+        width: 400px;
+    }
+    .box-3 {
+        position: absolute;
+        top: 250px;
+        left: 150px;
+    }
+    .box-4 {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        
+    }
+    .box-5 {
+        position: absolute;
+        top: 350px;
+        left: 150px;
+        width: 200px;
+        height: 150px;
+    }
+
+}
 .clear-box {
    width: 300px;
-   
     // box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
    
 }

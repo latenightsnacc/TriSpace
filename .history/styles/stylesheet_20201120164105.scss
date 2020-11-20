@@ -33,7 +33,9 @@ html, body {
     width: 100%;
     margin: 0 auto;
 }
-
+#navbar {
+    background-color: white !important;
+}
 // NAVIGATION BAR
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .nav-link, .dropdown-item {
     color: $blue !important;

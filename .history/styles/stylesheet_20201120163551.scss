@@ -25,6 +25,8 @@
 html, body {
     background: white;
     overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     height: 100%;
     margin: 0 auto !important;
 }
@@ -39,7 +41,6 @@ html, body {
     color: $blue !important;
     font-weight: 400;
     font-size: 17px;
-    
 }
 .nav-menu {
     display: flex;
